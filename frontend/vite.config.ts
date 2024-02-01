@@ -15,6 +15,18 @@ export default defineConfig(({ mode }) => {
             dest: "assets/",
           },
           {
+            src: 'public/github.min.css',
+            dest: "assets/",
+          },
+          {
+            src: 'public/diff2html.min.css',
+            dest: "assets/",
+          },
+          {
+            src: 'public/lightfair.min.css',
+            dest: "assets/",
+          },
+          {
             src: 'public/openapi.json',
             dest: "assets/",
           },

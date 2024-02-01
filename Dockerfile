@@ -27,6 +27,7 @@ WORKDIR /build
 COPY go.mod ./
 COPY go.sum ./
 COPY main.go ./
+ENV GOPROXY=https://goproxy.cn,direct
 RUN go mod download
 
 ADD . src
